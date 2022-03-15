@@ -1,11 +1,4 @@
-terraform {
-  backend "s3" {
-    bucket = "lb34"
-    key    = "bootcamp/ec2/terraform.tfstate"
-    region = "us-east-1"
-    #      dynamodb_table       = "terraform-lock"
-  }
-}
+
 
 # Now here we are creating Ec2 instance for our Nginx
 
